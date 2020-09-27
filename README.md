@@ -4,15 +4,11 @@ PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervise
 
 
 ## Requirements
-dgl==0.5.2 
-
-scipy==1.5.2 
-
-numpy==1.19.1 
-
-torch==1.6.0 
-
-networkx==2.5 s
+* dgl==0.5.2 
+* scipy==1.5.2 
+* numpy==1.19.1 
+* PyTorch==1.6.0 
+* networkx==2.5 s
 
 ## Usage
 python train.py --dataset cora
