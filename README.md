@@ -4,12 +4,21 @@ PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervise
 
 Tested on the cora/pubmed/citeseer data set, the code on this repository can achieve the effect of the paper.
 
+## Benchmark
+
+| dataset       | Citeseea | Cora | Pubmed |
+|---------------|----------|------|--------|
+| GCN(official) | 70.3     | 81.5 | 79.0   |
+| This repo.    | 70.7     | 81.2 | 79.2   |
+
+NOTE: The result of the experiment is to repeat the run 10 times, and then take the average of accuracy.
+
 ## Requirements
 * dgl==0.5.2 
 * scipy==1.5.2 
 * numpy==1.19.1 
 * PyTorch==1.6.0 
-* networkx==2.5 s
+* networkx==2.5
 
 ## Usage
 python train.py --dataset cora
