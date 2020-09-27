@@ -1,6 +1,6 @@
 # Graph Convolutional Networks in PyTorch
 
-PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
+PyTorch 1.6 and Python 3.7 implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
 
 Tested on the cora/pubmed/citeseer data set, the code on this repository can achieve the effect of the paper.
 
@@ -14,10 +14,11 @@ Tested on the cora/pubmed/citeseer data set, the code on this repository can ach
 NOTE: The result of the experiment is to repeat the run 10 times, and then take the average of accuracy.
 
 ## Requirements
+* PyTorch==1.6.0
+* Python==3.7
 * dgl==0.5.2 
 * scipy==1.5.2 
 * numpy==1.19.1 
-* PyTorch==1.6.0 
 * networkx==2.5
 
 ## Usage
