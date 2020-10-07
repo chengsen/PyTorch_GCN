@@ -22,7 +22,9 @@ NOTE: The result of the experiment is to repeat the run 10 times, and then take 
 * networkx==2.5
 
 ## Usage
+```python
 python train.py --dataset cora
+```
 
 ## References
 [1] [Kipf & Welling, Semi-Supervised Classification with Graph Convolutional Networks, 2016](http://xxx.itp.ac.cn/pdf/1609.02907.pdf)
